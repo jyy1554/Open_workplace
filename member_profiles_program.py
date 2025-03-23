@@ -171,7 +171,7 @@ for i in range(len(f_list)) :
         driver.switch_to.window(driver.window_handles[len(driver.window_handles)-1])
         
         if i != len(f_list) :
-            driver.execute_script('window.open("https://gsshop.workplace.com");')
+            driver.execute_script('window.open("https://회사명.workplace.com");')
 
     except TimeoutException :
         # 위 에러 무시
